@@ -15,11 +15,7 @@ bot.on('text', function(msg) {
 
 // On command "start" or "help"
 bot.on(['/start', '/help'], function(msg) {
-
-	return bot.sendMessage(msg.chat.id,
-		'😺 Use commands: /papa, /soares, /sumaDaqui and /about', { markup }
-	);
-
+	return bot.sendMessage(msg.chat.id, '😺 Use commands: /papa, /soares, /sumaDaqui and /about');
 });
 
 // On command "about"
