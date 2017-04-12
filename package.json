@@ -1,0 +1,21 @@
+{
+  "name": "papa-telegram-bot",
+  "version": "1.0.0",
+  "description": "An internal-joke funny bot for telegram",
+  "main": "index.js",
+  "scripts": {
+	"start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/luis-puhl/papa-telegram-bot"
+  },
+  "keywords": [
+    "joke",
+    "telegram",
+    "bot"
+  ],
+  "author": "luis-puhl",
+  "license": "MIT"
+}
